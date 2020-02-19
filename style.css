@@ -1,0 +1,41 @@
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 15px;
+  overflow-x: hidden;
+  text-indent: inherit;
+}
+
+.sidenav p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 8px 0px 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sidenav a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    width: 600px;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
